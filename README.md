@@ -15,22 +15,33 @@ This repository is designed to host multiple independent AI-powered applets, eac
 
 ```
 applets/
-├── README.md                 # This file
-├── .gitignore               # Common ignore patterns for all tech stacks
-├── applet-1/                # Example: Sentiment analysis applet
-│   ├── README.md            # Applet-specific documentation
-│   ├── requirements.txt     # Python dependencies (if Python-based)
-│   ├── src/                 # Source code
-│   └── ...                  # Other applet-specific files
-├── applet-2/                # Example: Image generation applet
-│   ├── README.md            # Applet-specific documentation
-│   ├── package.json         # Node.js dependencies (if Node-based)
-│   ├── src/                 # Source code
-│   └── ...                  # Other applet-specific files
-└── ...                      # More applets
+├── README.md                    # This file
+├── QUICK_START.md               # Quick reference guide
+├── CONTRIBUTING.md              # Detailed contribution guidelines
+├── .gitignore                   # Common ignore patterns for all tech stacks
+├── .github/
+│   └── APPLET_TEMPLATE/         # Templates for creating new applets
+├── example-text-sentiment/      # Example applet (reference implementation)
+│   ├── README.md                # Applet-specific documentation
+│   ├── requirements.txt         # Python dependencies
+│   ├── app.py                   # Main application
+│   └── src/                     # Source code
+└── [your-applets]/              # Your applets go here!
 ```
 
 ## 🚀 Getting Started
+
+### Try the Example Applet
+
+Want to see how it works? Check out the example sentiment analysis applet:
+
+```bash
+cd example-text-sentiment
+pip install -r requirements.txt
+python app.py --text "I love this repository!"
+```
+
+See [example-text-sentiment/README.md](./example-text-sentiment/README.md) for full details.
 
 ### Exploring Applets
 

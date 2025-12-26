@@ -1,0 +1,6 @@
+# Core dependencies for sentiment analysis
+transformers>=4.30.0
+torch>=2.0.0
+
+# Optional: for better performance (uncomment if needed)
+# accelerate>=0.20.0
