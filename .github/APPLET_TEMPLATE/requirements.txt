@@ -1,0 +1,31 @@
+# Python example: requirements.txt
+# Uncomment and modify based on your needs
+
+# Core dependencies
+# transformers>=4.30.0
+# torch>=2.0.0
+# numpy>=1.24.0
+
+# For web frameworks
+# flask>=2.3.0
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# streamlit>=1.25.0
+# gradio>=3.40.0
+
+# For specific model types
+# diffusers>=0.19.0        # For image generation
+# sentence-transformers>=2.2.0  # For embeddings
+# langchain>=0.0.200       # For LLM chains
+# peft>=0.4.0             # For parameter-efficient fine-tuning
+
+# Utilities
+# pillow>=10.0.0          # For image processing
+# requests>=2.31.0        # For API calls
+# python-dotenv>=1.0.0    # For environment variables
+# tqdm>=4.65.0            # For progress bars
+
+# Development
+# pytest>=7.4.0
+# black>=23.7.0
+# flake8>=6.0.0
