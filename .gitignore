@@ -1,0 +1,190 @@
+# General
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.log
+*.tmp
+.cache/
+*.swp
+*.swo
+*~
+
+# IDE and Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytype/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# JavaScript/TypeScript Build Outputs
+dist/
+.next/
+out/
+.nuxt
+.cache
+.parcel-cache
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+*.tsbuildinfo
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.mtj.tmp/
+hs_err_pid*
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle
+vendor/bundle
+.byebug_history
+.ruby-version
+.ruby-gemset
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ML/AI Model Files (comment out if you want to commit models)
+*.h5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+*.safetensors
+# Uncomment below if models should be tracked
+# !**/models/*.h5
+# !**/models/*.pkl
+
+# Hugging Face Cache
+.cache/huggingface/
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
